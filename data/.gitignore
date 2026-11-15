@@ -1,0 +1,23 @@
+# Файлы базы данных
+data/
+*.dat
+
+# Скомпилированные Java-файлы
+*.class
+
+# Папки сборки
+out/
+build/
+target/
+
+# Файлы IntelliJ IDEA
+.idea/
+*.iml
+
+# Временные файлы
+*.log
+*.tmp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
