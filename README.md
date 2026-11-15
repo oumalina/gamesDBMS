@@ -256,29 +256,13 @@ $$<=$$
 Для добавления новой игры используется команда:
 
 ```code
-INSERT INTO games VALUES (
-    1,
-    'Minecraft',
-    'Sandbox',
-    'Mojang',
-    '2011-11-18',
-    29.99,
-    TRUE
-);
+INSERT INTO games VALUES (1, 'Minecraft', 'Sandbox', 'Mojang', '2011-11-18', 29.99, TRUE);
 ```
 
 ### 5.3. Добавление отзыва
 
 ```code
-INSERT INTO reviews VALUES (
-    1,
-    1,
-    'Alex',
-    10,
-    'Amazing game!',
-    '2026-11-15',
-    TRUE
-);
+INSERT INTO reviews VALUES (1, 1, 'Alex', 10, 'Amazing game!', '2026-11-15', TRUE);
 ```
 
 В данном примере отзыв относится к игре с идентификатором 1.
