@@ -1,5 +1,6 @@
 package storage;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +11,9 @@ import model.Review;
  * Представляет базу данных GamesDBMS.
  * Содержит таблицы игр и отзывов.
  */
-public class Database implements java.io.Serializable {
+public class Database implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private List<Game> games;
     private List<Review> reviews;

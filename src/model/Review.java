@@ -1,4 +1,3 @@
-
 package model;
 
 import java.io.Serializable;
@@ -50,5 +49,13 @@ public class Review implements Serializable {
             "%-4d %-8d %-15s %-8d %-25s %-12s %-10s",
             id, gameId, username, rating, comment, reviewDate, recommended
         );
+    }
+
+    public void setGameId(int gameId) {
+        this.gameId = gameId;
+    }
+
+    public void setReviewDate(LocalDate reviewDate) {
+        this.reviewDate = reviewDate;
     }
 }
